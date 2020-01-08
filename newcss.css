@@ -1,0 +1,55 @@
+body {
+    padding: 10px 20px 20px 20px; /* верх, право, низ, лево*/
+    background-image:url("https://s1.1zoom.ru/big3/231/Raccoons_Black_background_527089_1920x1080.jpg");
+    margin: 0px; /* внешний отступ */
+    
+}
+
+p{
+    font-family: Kurale;
+    color: whitesmoke;
+    font-size: 20px;
+    font-stretch: extra-condensed;
+}
+P:nth-child(2n+1) {
+    color: yellow;
+}
+p span{
+    color: fuchsia;
+}
+a{
+    font-family: sans-serif;
+    font-size: 25px;
+    color: gold;
+}
+h1, h2, h3 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: left;
+    padding: 12px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+#logo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.1em;
+    border: 1px solid black;
+    border-radius: 0px 15px 0px 15px; /* верх левый, верх правый, низ левый, низ правый */
+    text-align: center;
+    background-color: royalblue;
+    color: whitesmoke;
+    padding: 0px 0px 0px 0px;
+    font-style: oblique;
+}
+.logo-1{
+    border: 1px solid lightgray;
+    background-color: green;
+    color: black;
+    text-align: justify;
+}
+article{
+    max-width: 750px;
+    margin: 0 auto;
+}
