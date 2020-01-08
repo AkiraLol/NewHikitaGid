@@ -1,0 +1,105 @@
+body{
+  font-family: Verdana;
+  font-size: 13px;
+}
+h2.list {
+  color:red;
+}
+h1, h2 *{
+  border: 1px solid black;
+}
+
+h4 ~ li {
+  color: red;
+}
+a{
+  font-size: 16px;
+}
+:link{
+  
+}
+
+a:hover{
+  background-color: lightgray;
+  border: 0px;
+}
+li:nth-child(2){
+  background-color: lightblue;
+}
+table{
+  width: 900px;
+  height: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td{
+  border: 1px solid lightgray;
+  border-spacing: 0px;
+}
+.clas{
+  width: 350px;
+  background-color: lightblue;
+  color: black;
+  border: 1px solid black;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.col{
+  text-indent: 50px;
+  background-color: black;
+  color: white;
+}
+
+.cod-1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: oblique; /*Начертание шрифта*/
+}
+
+.cod{
+  font-weight: 900; /*Насыщеность шрифта*/
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: lowercase; /* Преорбразование текста*/
+}
+
+.cod-2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px; /*Размер шрифта*/
+}
+
+.cod,
+.cod-1,
+.cod-2{
+  text-align: center;
+}
+
+.hyp-1{
+  hyphens: manual;
+  
+  text-align: justify;
+  letter-spacing: 0.8px;
+}
+.col-3{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
+.col-0,
+.col-0.1{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+caption{
+  caption-side: bottom;
+  font-size: 40px;
+  font-weight: 900;
+}
+.headline {
+  text-transform: uppercase; 
+  color: lightblue;
+  }
+.post-title{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
