@@ -1,38 +1,80 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Заголовок таблицы</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <table>
-      <caption>Создаем таблицы</caption>
-      <tr>
-        <th class="clas">Ячейка 1</th>
-        <th class="clas">Ячейка 2</th>
-        <th class="clas">Ячейка 3</th>
-        <th class="clas">Ячейка 4</th>
-      </tr>
-      <tr>
-        <td class="col">Шрифты</td>
-        <td class="cod">Times New Roman</td>
-        <td class="cod-1">Lucida Sans Unicode</td>
-        <td class="cod-2">Verdana</td>
-      </tr>
-      <tr>
-        <td class="col">Работа с текстом</td>
-        <td class="hyp-1" colspan="3">Расстановка переносов — это контролируемое разбиение слов, при котором им обычно не разрешается разрываться, чтобы улучшить расположение абзацев. Как правило, разбиение слов происходит по слоговым или морфемным границам и при визуальном указании на разделение (обычно путем вставки дефиса, ‐). В некоторых случаях переносы могут также изменить написание слова. В любом случае, перенос слов является только эффектом рендеринга: он не должен влиять ни на содержимое документа, ни на выбор текста или поиск.</td>
-        
-      </tr>
-      <tr>
-        <td rowspan="4" class="col-3">Рандомное написание текста в ячейке</td>
-        <td class="col-0" rowspan="2">Как сделать красивую таблицу на HTML+CSS, Урок 4. Я расскажу вам как оформить таблицу красиво на css и как создать таблицу на html. Красивая таблица для сайта это очень важно и вы должны знать как правильно создавать таблицы и придавать им очень привлекательное оформление.</td>
-        <td class="col-0.1" colspan="2">Как сделать красивую таблицу на HTML+CSS, Урок 4. Я расскажу вам как оформить таблицу красиво на css и как создать таблицу на html. Красивая таблица для сайта это очень важно и вы должны знать как правильно создавать таблицы и придавать им очень привлекательное оформление.</td>       
-      </tr>
-      <tr>
-        <td colspan="2">Привет Мир</td>
-      </tr> 
-    </table>
-   </body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/8c5f8983b2.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+	<form>
+		<button>
+			<img src="img/button.jpg" alt="" style="vertical-align:middle"> 
+		   </button>
+	  </form>
+	<header class="header">
+		<a href="#" class="logo"></a>
+		<div class="header-cent">Ты не ты когда голоден!</div>
+		<div class="header-right">+375(00)1234567<br>
+			Name User</div>
+			<div class="header-bottom">
+					<a href="#p1">Title 1</a>
+					<a href="#p2">Title 2</a>
+					<a href="#p3">Title 3</a>
+				</div>
+</header>
+	<main class="main">
+		<div class="grid">
+			<div class="grid-itm">
+				<div class="grid-img"></div>
+				<div class="grid-cont">
+					<h1 class="grid-tutle">Lorem, ipsum.</h1>
+					<span class="post-date"> Name User:<br>
+						Опубликовано: 1 февраля 2020</span>
+					<p id="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam similique explicabo ullam. 
+						A, quasi dolores totam voluptas, voluptatum non quos unde excepturi asperiores minus nobis laborum repellat animi dolor similique ea ratione!
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam similique explicabo ullam. 
+						A, quasi dolores totam voluptas, voluptatum non quos unde excepturi asperiores minus nobis laborum repellat animi dolor similique ea ratione!
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam similique explicabo ullam. 
+						A, quasi dolores totam voluptas, voluptatum non quos unde excepturi asperiores minus nobis laborum repellat animi dolor similique ea ratione!</p>
+				</div>
+			</div>
+			<div class="grid-itm">
+				<div class="grid-img"></div>
+				<div class="grid-cont">
+					<h1 class="grid-tutle">Lorem, ipsum.</h1>
+					<span class="post-date"> Name User:<br>
+						Опубликовано: 1 февраля 2020</span>
+					<p id="p2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam similique explicabo ullam. 
+						A, quasi dolores totam voluptas, voluptatum non quos unde excepturi asperiores minus nobis laborum repellat animi dolor similique ea ratione!
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam similique explicabo ullam. 
+						A, quasi dolores totam voluptas, voluptatum non quos unde excepturi asperiores minus nobis laborum repellat animi dolor similique ea ratione!
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam similique explicabo ullam. 
+						A, quasi dolores totam voluptas, voluptatum non quos unde excepturi asperiores minus nobis laborum repellat animi dolor similique ea ratione!</p>
+				</div>
+			</div>
+			<div class="grid-itm">
+				<div class="grid-img"></div>
+				<div class="grid-cont">
+					<h1 class="grid-tutle">Lorem, ipsum.</h1>
+					<span class="post-date"> Name User:<br>
+						Опубликовано: 1 февраля 2020</span>
+					<p id="p3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam similique explicabo ullam. 
+						A, quasi dolores totam voluptas, voluptatum non quos unde excepturi asperiores minus nobis laborum repellat animi dolor similique ea ratione!
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam similique explicabo ullam. 
+						A, quasi dolores totam voluptas, voluptatum non quos unde excepturi asperiores minus nobis laborum repellat animi dolor similique ea ratione!
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam similique explicabo ullam. 
+						A, quasi dolores totam voluptas, voluptatum non quos unde excepturi asperiores minus nobis laborum repellat animi dolor similique ea ratione!</p>
+				</div>
+			</div>
+		</div>
+	</main>
+	<div class="footer">
+		<a>Name User</a>
+		<a>+375(00)1234567</a>
+	 	<a>qwer@mail.ru</a>
+		<a><---Обратная связь</a>
+	</div>
+</body>
 </html>
